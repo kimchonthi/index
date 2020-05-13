@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{height: 100vh;
+margin: 0px;
+padding: 0px}
+.container
+{width: 100%;
+height: 100%;
+overflow: scroll;
+scroll-behavior: smooth}
+
+.section
+{width: 100%;
+height: 100%;
+display: flex;
+overflow: hidden;
+justify-content: center;
+position: relative;
+}
+
+.menu 
+{width: 10%;
+height: 100%;
+z-index: 1;
+float: left;
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center}
+
+ul
+{list-style: none;}
+
+ul li 
+{text-decoration: none;
+padding-top: 50px}
+
+ul li a
+{text-decoration: none}
+
+.icon
+{width: 500px;
+height: 100px;
+z-index: 2;
+position: fixed;
+margin-top: 650px;
+padding-left: 40px;}
+
+i 
+{padding-left: 20px;
+color: #525252}
+
+.account
+{width: 200px;
+height: 100px;
+z-index: 1;
+position: fixed;
+margin-left: 80%;
+padding-top: 10px;}
+
+a {text-decoration: none}
+
+
+.tronvang
+{width: 730px;
+height: 742px;
+position: absolute;
+background-image: url(../images/tron.png);
+opacity: 0;
+animation: tronvang 3s linear forwards infinite}
+@keyframes tronvang{
+	from{transform: scale(0); opacity: 1}
+	to{transform: scale(1); opacity: 1}
+}
+
+
+.greyhoody
+{width: 400px;
+height: 810px;
+position: absolute;
+background-image: url( ../images/Womens-Yoga-hoodie-with-thumbholes-by-Alala.png)}
+
+.gray
+{width: 423px;
+height: 165px;
+position: absolute;
+top: 250px;
+left: 200px;
+background-image: url(../images/gray.png);
+opacity: 0;
+animation: gray 3s linear forwards}
+@keyframes gray {
+	from{left: -100px; opacity: 1}
+	to{left: 400px; opacity: 1}
+	
+}
+
+.hoody
+{width: 555px;
+height: 162px;
+position: absolute;
+top: 400px;
+left: 350px;
+;
+background-image: url(../images/hoody.png);
+animation: hoody 3s linear forwards}
+@keyframes hoody
+{from {left:1500px; opacity: 1 }
+	to {left: 600px; opacity: 1}}
+
+
+.troncam
+{width: 730px;
+height: 742px;
+position: absolute;
+background-image: url( ../images/troncam.png);
+opacity: 0;
+animation: troncam 3s linear forwards infinite}
+@keyframes troncam{
+	from{transform: scale(0); opacity: 1}
+	to{transform: scale(1); opacity: 1}
+}
+
+
+.menhoody
+{width: 544px;
+height: 810px;
+position: absolute;
+background-image: url( ../images/dravus-mens-hoodies-sweatshirts-weekender-henley-hooded-khaki-charcoal-shirt-charcoal.png)}
+
+.for
+{width: 668px;
+height: 164px;
+;
+position: absolute;
+top: 250px;
+left: 400px;
+background-image: url( ../images/formen.png);
+opacity: 0;
+animation: for 10s linear forwards infinite}
+@keyframes for {
+	from{left: -500px; opacity: 1}
+	to{left: 1500px; opacity: 1}
+	
+}
+
+.men
+{width: 555px;
+height: 164px;
+position: absolute;
+top: 400px;
+left: 550px;
+;
+background-image: url( ../images/hoodyvang.png);
+animation: men 10s linear forwards infinite}
+@keyframes men
+{from {left:1500px; opacity: 1 }
+	to {left: -600px; opacity: 1}}
+
+.giaya
+{width: 100%;
+height: 100%;
+background-image: url(../images/giay.jpg)}
+
+.shoes1
+{width: 587px;
+height: 158px;
+;
+position: absolute;
+top: 100px;
+left: 400px;
+background-image: url( ../images/shoes1.png);
+opacity: 0;
+animation: shoes1 2s infinite}
+@keyframes shoes1 {
+	0%{opacity: 0.5}
+	50%{opacity: 1}
+	100%{opacity: 0.5}}
+
+.for1
+{width: 312px;
+height: 158px;
+position: absolute;
+top: 300px;
+left: 550px;
+background-image: url( ../images/for1.png);
+animation: for1 1s infinite}
+@keyframes for1
+{0% {transform: scale(0.1); opacity: 1 }
+	90% {transform: scale(1.1); opacity: 1}
+100% {transform: scale(1); opacity: 1}}
+
+.everyone
+{width: 884px;
+height: 158px;
+position: absolute;
+top: 500px;
+left: 300px;
+background-image: url( ../images/everyones.png);
+animation: everyone 2s infinite}
+@keyframes everyone
+{0%{opacity: 1}
+	50%{opacity: 0.5}
+	100%{opacity: 1}}
+
+.brand
+{width: 1129px;
+height: 814px;
+background-image: url(../images/brand.png)}
+
+.wow:first-child {
+      visibility: hidden;
+    }
+
+
+
+
+

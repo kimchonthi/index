@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">	
+	 <link rel="stylesheet" href="js/wow.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+	
+
+<body>
+<div class="container">
+	<div class="menu">
+		<ul>
+			<li><a href="#mot"><font style="color: gray">WOMEN</font></a></li>
+			<li><a href="#hai"><font style="color: gray">MEN</font></a></li>
+			<li><a href="#ba"><font style="color: gray">SHOES</font></a></li>
+			<li><a href="#bon"><font style="color: gray">BRAND</font></a></li>
+		</ul>
+	</div>
+	<div class="icon">
+				<a href=""><i class="fa fa-facebook" style="font-size:24px"></i></a>
+				<a href=""><i class="fa fa-twitter" style="font-size:24px"></i></a>
+	</div>
+	<div class="account">
+				<a href=""><b><font style="color: #4A4A4A">MY ACCOUNT</font></b></a>
+				<a href=""><i class="fa fa-heart" style="font-size:24px"></i></a>
+	</div>
+	
+	
+	
+	
+	<div id="mot" class="section">
+			<div class="tronvang"></div>
+			<div class="greyhoody"></div>
+			<div class="gray"></div>
+			<div class="hoody"></div>
+	</div>
+		
+	
+	
+	<div id="hai" class="section">
+		<div class="troncam"></div>
+		<div class="menhoody"></div>
+		<div class="for"></div>
+		<div class="men"></div>
+	</div>
+	
+	
+	
+	<div id="ba" class="section">
+		<div class="giaya"></div>
+		<div class="shoes1"></div>
+		<div class="for1"></div>
+		<div class="everyone"></div>
+	
+	</div>
+	
+	
+	
+	
+		<div id="bon" class="section">
+	<div class="brand"></div>
+	
+	</div>
+	
+	</div>
+	
+	<script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	
+</body>
+</html>
